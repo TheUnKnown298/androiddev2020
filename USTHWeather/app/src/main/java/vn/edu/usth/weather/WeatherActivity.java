@@ -1,8 +1,10 @@
 package vn.edu.usth.weather;
 
+
 import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.os.Bundle;
+import android.widget.LinearLayout;
 
 public class WeatherActivity extends AppCompatActivity {
 
@@ -36,5 +38,12 @@ public class WeatherActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
+        Log.i("onCreate","Weather activity is being created");
+
+        ForecastFragment firstFragment = new ForecastFragment();
+        getSupportFragmentManager().beginTransaction().add(R.id.container, firstFragment).commit();
+
     }
-}
+
+
+    }
