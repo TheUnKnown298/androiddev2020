@@ -17,13 +17,6 @@ public class BlankFragment extends Fragment {
 
     }
 
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        View v = new View(getContext());
-        v.setBackgroundColor(0xFF800080);
-        return v;
-    }
 
 
 

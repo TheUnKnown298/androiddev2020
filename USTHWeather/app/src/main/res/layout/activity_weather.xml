@@ -5,7 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#5599C7"
+    android:background="#FFC98A"
     tools:context=".WeatherActivity">
 
     <TextView
@@ -13,14 +13,16 @@
         android:layout_height="203dp"
         android:background="#00AC2727"
         android:clickable="true"
+        android:focusable="true"
         android:gravity="center_horizontal|center_vertical"
         android:text="@string/usth_weather"
         android:textColor="#450250"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:focusable="true" />
+        app:layout_constraintVertical_bias="0.085" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
