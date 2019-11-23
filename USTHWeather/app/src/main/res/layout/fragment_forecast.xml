@@ -8,7 +8,6 @@
     android:layout_column="20"
     android:layout_columnSpan="20"
     android:layout_gravity="end"
-    android:layout_margin="10sp"
     android:layout_span="7"
     android:background="#44BEFD"
     android:measureWithLargestChild="false"
@@ -207,9 +206,9 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:contentDescription="TODO"
             android:src="@drawable/e"
-            app:srcCompat="@drawable/e"
-            android:contentDescription="TODO" />
+            app:srcCompat="@drawable/e" />
 
         <TextView
             android:id="@+id/textView10"
