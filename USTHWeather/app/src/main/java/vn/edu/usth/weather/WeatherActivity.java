@@ -22,7 +22,7 @@ public class WeatherActivity extends AppCompatActivity {
         ViewPager pager = (ViewPager) findViewById(R.id.pager);
         pager.setOffscreenPageLimit(3);
         pager.setAdapter(adapter);
-    }
+}
 
     public class HomeFragmentPagerAdapter extends FragmentPagerAdapter {
         private final int PAGE_COUNT = 3;
