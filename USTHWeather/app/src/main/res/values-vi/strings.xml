@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">USTH Weather</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="thusday">Thứ Năm</string>
+    <string name="usth_weather">USTH Weather</string>
+    <string name="friday">Thứ Sáu</string>
+    <string name="wednesday">Thứ Tư</string>
+    <string name="heavy_rain">Mưa Giông</string>
+    <string name="thursday">Thứ Năm</string>
+    <string name="monday">Thứ Hai</string>
+    <string name="slightly_rain">Mưa Bay</string>
+    <string name="snow">Tuyết Rơi</string>
+    <string name="tuesday">Thứ Ba</string>
+    <string name="sunny">Nắng Đẹp</string>
+    <string name="windy">Nhiều Gió</string>
+    <string name="saturday">Thứ Bảy</string>
+    <string name="cloudy">Nhiều Mây</string>
+    <string name="sunday">Chủ Nhật</string>
+    <string name="party_cloud">Đặc Biệt Nhiều Mây</string>
+    <string name="_12_degree">12 degree</string>
+    <string name="hanoi">Hanoi</string>
+</resources>
